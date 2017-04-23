@@ -1,0 +1,14 @@
+1、$scope.user用户基本信息，放置在controller.js中，使得视图从控制器中读取数据
+2、文本域通过ng-click属性，事件触发时，触发push函数，通过DOM操作，将文本域输入的信息显示在视图上
+3、右侧粉丝数通过ng-repeat循环输出显示，通过粉丝各自的粉丝数量排序（过滤器）
+4、通过ng-repeat实现导航条
+5、通过导航栏ng-click事件、ng-show实现下拉菜单
+6、手风琴，参考显示更多demo,自定义指令ng-click、ng-show事件控制左侧导航栏的显示与隐藏
+7、路由，通过将最新动态、简介诶、消息分别设置first.html second.html third.html视图放在view中，
+通过路由的when("/",templateurl,controller)分别显示不同视图，index.html页面通过<div ng-view></div>
+控制显示部分
+
+
+其中controller.js放置数据和控制器
+derecitive.js放置自定义指令
+route.js放置路由
